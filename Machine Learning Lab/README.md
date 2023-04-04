@@ -1,5 +1,5 @@
 # laboratorio-machine-learning
-API Simple que sirve un modelo para la prevención del Churn
+API Simple que sirve un modelo para probar distintos modeles de machine Learning
 
 ## Tecnologías usadas
 This API uses a number of open source projects to work properly:
@@ -15,27 +15,9 @@ Esta API requiere Python y las librerias señaladas en el requirements.txt
 1. Clonar repositorio
 2. Correr la api, ejecutando desde la carpeta de proyecto
 
-```
-python app.py
-```
-
-#### Verificar que la app esta corriendo exitosamente
-
-La api se verifica mandando un ejemplo para confirmar que esta funcionando correctamente
-
-```
-curl --location --request GET 'http://localhost:3001/query?feats=465,France,Female,51,8,122522.32,1,0,0,181297.65'
-```
-
-Si todo esta bien, deberías de obtener una respuesta así
-```
-{"response": [1]}
-```
-
 #### Equipo
 
-* Juan Perez Nombrefalso
-* Ricardo Alanís Tamez
+* Jorge Lara
 
 #### Contribuir
 
